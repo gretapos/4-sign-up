@@ -1,18 +1,31 @@
 body{
+    background-color: #44b2c8;
 
 }
 .container{
     display: inline-block;
     width: 800px;
+    margin-top: 150px;
 }
 
 .left-column{
     width: 40%;
-    float: right;
-    background-color: yellow; 
+    float: left;
+    background-color: #3f52b2;
+    padding: 40px;
+    padding-bottom: 20px;
+    color: #fff; 
+    box-sizing: border-box;
+    
+}
+
+a{
+    color: #fff;
 }
 
 .right-column{
 width: 60%;
-float: left;    
-background-color: gray;}
+float: left;  
+padding: 60px;  
+background-color:#fff;}
+
