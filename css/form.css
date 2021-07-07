@@ -1,0 +1,59 @@
+form{
+    display: inline-block;
+    width: 100%;
+}
+form > .form-row {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+}
+form > .form-row:first-of-type{
+    margin-top: 0;
+}
+form > .form-row > label{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: #777;
+    text-transform: uppercase;
+}
+form > .form-row > input{
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+form > .form-row > button{
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    background: #2348d4;
+    background: linear-gradient(53deg, #2348d4 0%, #0265de 100%);
+    color: #fff;
+    border-color: #0f53b7;
+
+}
+form > .form-row > span{
+    display: inline-block;
+    line-height: 26px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+form > .form-row > a{
+    display: inline-block;
+    line-height: 26px;
+    padding: 5px;
+    text-decoration: none;
+    color: #2348d4;
+
+
+
+}
