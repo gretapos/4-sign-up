@@ -14,7 +14,7 @@ form > .form-row > label{
     display: inline-block;
     width: 100%;
     margin-bottom: 5px;
-    font-size: 17px;
+    font-size: 15px;
     color: #777;
     text-transform: uppercase;
 }
@@ -43,6 +43,7 @@ form > .form-row > button{
 form > .form-row >button:hover {
     cursor: pointer;
     background: #2348d4;
+    background: linear-gradient(53deg, #0265de 0%, #2348d4 100%);
 }
 
 form > .form-row > span{
@@ -50,6 +51,7 @@ form > .form-row > span{
     line-height: 26px;
     padding: 5px;
     margin-left: 5px;
+    font-size: 17px;
 }
 
 form > .form-row > a{
@@ -61,7 +63,7 @@ form > .form-row > a{
     font-weight: bold;
     font-size: 17px;
 }
-form > .form-row > a > :hover{
-
+form > .form-row > a:hover{
+    text-decoration: underline;
 }
 ]
