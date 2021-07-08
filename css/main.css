@@ -10,12 +10,17 @@ body{
 }
 
 .left-column{
+    height: 500px;
     width: 40%;
     float: left;
     padding: 40px;
     padding-bottom: 20px;
     background-color: #3f52b2;
+    background-image: url(../img/singup.jpg);
     color: #fff; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
 }
 
 h1{
