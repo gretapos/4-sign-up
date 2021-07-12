@@ -26,24 +26,12 @@ form > .form-row > input{
     border: none;
     border-bottom: 1px solid #ccc;
 }
-form > .form-row > button{
-    font-size: 20px;
-    line-height: 26px;
-    text-transform: capitalize;
-    padding: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 20px;
-    background: #2348d4;
-    background: linear-gradient(53deg, #2348d4 0%, #0265de 100%);
-    color: #fff;
-    border-color: #0f53b7;
-
-}
-form > .form-row >button:hover {
-    cursor: pointer;
-    background: #2348d4;
-    background: linear-gradient(53deg, #0265de 0%, #2348d4 100%);
+form > .form-row > input:focus-visible {
+    outline: 2px solid #777;
+  }
+  ::placeholder {
+    font-style: italic;
+    color: #777;
 }
 
 form > .form-row > span{
